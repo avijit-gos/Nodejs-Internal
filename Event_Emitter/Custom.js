@@ -20,7 +20,7 @@ module.exports = class CustomEvent {
 
   // ON event
   on(eventname, fn) {
-    this.addEventListener(eventname, fn);
+    this.addEventListener(eventname, fn);     
   }
 
   // ONCE event
